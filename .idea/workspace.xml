@@ -4,10 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a3fda8c2-9938-48c8-9388-3de6ec073857" name="Changes" comment="class CsvReader">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
+    <list default="true" id="a3fda8c2-9938-48c8-9388-3de6ec073857" name="Changes" comment="List output">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/test_data.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/CsvReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/CsvReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/CsvReaderTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,12 +50,73 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.Main.executor": "Run",
+    "JUnit.CsvReaderTest.executor": "Run",
+    "JUnit.CsvReaderTest.testDepartmentCreation.executor": "Run",
+    "JUnit.CsvReaderTest.testPersonCreation.executor": "Run",
+    "JUnit.CsvReaderTest.testReadPersonsFromCsv.executor": "Run",
     "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true"
   }
 }]]></component>
+  <component name="RunManager" selected="JUnit.CsvReaderTest.testReadPersonsFromCsv">
+    <configuration name="CsvReaderTest.testDepartmentCreation" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Laba4" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.CsvReaderTest" />
+      <option name="METHOD_NAME" value="testDepartmentCreation" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CsvReaderTest.testPersonCreation" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Laba4" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.CsvReaderTest" />
+      <option name="METHOD_NAME" value="testPersonCreation" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CsvReaderTest.testReadPersonsFromCsv" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Laba4" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.CsvReaderTest" />
+      <option name="METHOD_NAME" value="testReadPersonsFromCsv" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.CsvReaderTest.testReadPersonsFromCsv" />
+        <item itemvalue="JUnit.CsvReaderTest.testPersonCreation" />
+        <item itemvalue="JUnit.CsvReaderTest.testDepartmentCreation" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -79,7 +142,15 @@
       <option name="project" value="LOCAL" />
       <updated>1732965423481</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="List output">
+      <option name="closed" value="true" />
+      <created>1732968378830</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1732968378830</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -96,6 +167,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Classes Person and Department" />
     <MESSAGE value="class CsvReader" />
-    <option name="LAST_COMMIT_MESSAGE" value="class CsvReader" />
+    <MESSAGE value="List output" />
+    <option name="LAST_COMMIT_MESSAGE" value="List output" />
   </component>
 </project>
