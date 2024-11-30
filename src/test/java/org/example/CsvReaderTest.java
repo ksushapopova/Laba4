@@ -4,8 +4,15 @@ import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 import java.util.List;
 
+/**
+ * A class for testing the functionality of the CsvReader class and related classes.
+ */
 public class CsvReaderTest {
 
+    /**
+     * Tests the creation of a Department object.
+     * Verifies that the ID and name of the department are set correctly.
+     */
     @Test
     public void testDepartmentCreation() {
         Department department = new Department(38969, "E");
@@ -13,6 +20,10 @@ public class CsvReaderTest {
         assertEquals("E", department.getName());
     }
 
+    /**
+     * Tests the creation of a Person object.
+     * Verifies that all attributes of the person are set correctly.
+     */
     @Test
     public void testPersonCreation() {
         Department department = new Department(38969, "E");
@@ -26,6 +37,13 @@ public class CsvReaderTest {
         assertEquals("06.05.1963", person.getBirthDate());
     }
 
+    /**
+     * Tests the readPersonsFromCsv method of the CsvReader class.
+     * Verifies that the method returns a non-empty list of Person objects,
+     * and that the data of the first person in the list matches the expected values.
+     *
+     * @throws Exception if an error occurs while reading the CSV file
+     */
     @Test
     public void testReadPersonsFromCsv() throws Exception {
         CsvReader csvReader = new CsvReader();

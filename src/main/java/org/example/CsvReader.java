@@ -10,8 +10,19 @@ import java.util.List;
 import java.util.Arrays;
 import java.io.FileNotFoundException;
 
+/**
+ * A class responsible for reading person data from a CSV file.
+ */
 public class CsvReader {
 
+    /**
+     * Reads person data from a CSV file and returns a list of Person objects.
+     *
+     * @param csvFilePath the path to the CSV file
+     * @param separator   the character used to separate values in the CSV file
+     * @return a list of Person objects populated from the CSV file
+     * @throws Exception if an error occurs while reading the file
+     */
     public List<Person> readPersonsFromCsv(String csvFilePath, char separator) throws Exception {
         List<Person> persons = new ArrayList<>();
         int departmentId = 1;

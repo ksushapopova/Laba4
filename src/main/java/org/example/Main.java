@@ -2,7 +2,16 @@ package org.example;
 
 import java.util.List;
 
+/**
+ * The main class that executes the application.
+ */
 public class Main {
+
+    /**
+     * The entry point of the application.
+     *
+     * @param args command-line arguments
+     */
     public static void main(String[] args) {
         CsvReader csvReader = new CsvReader();
         try {
